@@ -1,0 +1,63 @@
+{
+  "pasangan": {
+    "pria": {
+      "nama": "Brian Aldi, S.M.",
+      "orangTua": "Putra dari Bapak Nama Ayah & Ibu Nama Ibu",
+      "foto": "assets/groom.jpg.svg"
+    },
+    "wanita": {
+      "nama": "An Nisa Nur Laila, S.M.",
+      "orangTua": "Putri dari Bapak Nama Ayah & Ibu Nama Ibu",
+      "foto": "assets/bride.jpg.svg"
+    }
+  },
+  "acara": {
+    "tanggalISO": "2026-12-20T08:00:00+07:00",
+    "tanggalTeks": "Minggu, 20 Desember 2026",
+    "akad": {
+      "jam": "08.00 WIB",
+      "tempat": "Kediaman Mempelai Wanita"
+    },
+    "resepsi": {
+      "jam": "11.00 WIB",
+      "tempat": "Gedung Serbaguna"
+    },
+    "maps": "https://maps.google.com/?q=Gedung+Serbaguna"
+  },
+  "galeri": [
+    "assets/gallery/1.jpg.svg",
+    "assets/gallery/2.jpg.svg",
+    "assets/gallery/3.jpg.svg",
+    "assets/gallery/4.jpg.svg"
+  ],
+  "cerita": [
+    {
+      "tahun": "2022",
+      "judul": "Pertama Bertemu",
+      "isi": "Berawal dari sebuah pertemuan sederhana yang kemudian menjadi awal dari perjalanan panjang kami."
+    },
+    {
+      "tahun": "2024",
+      "judul": "Memantapkan Hati",
+      "isi": "Setelah melewati berbagai cerita, kami memutuskan untuk melangkah ke jenjang yang lebih serius."
+    },
+    {
+      "tahun": "2026",
+      "judul": "Menuju Hari Bahagia",
+      "isi": "Dengan doa dan restu keluarga, kami mengikat janji untuk membangun kehidupan bersama."
+    }
+  ],
+  "rekening": [
+    {
+      "bank": "Bank BCA",
+      "nomor": "1234567890",
+      "atasNama": "Brian Aldi"
+    },
+    {
+      "bank": "Bank Mandiri",
+      "nomor": "0987654321",
+      "atasNama": "An Nisa Nur Laila"
+    }
+  ],
+  "whatsapp": "6281234567890"
+}

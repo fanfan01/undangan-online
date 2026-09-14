@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian & Nisa — Wedding Invitation</title>
+  <meta name="description" content="Undangan Pernikahan Brian & Nisa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="opening" class="opening">
+    <div class="opening-card">
+      <p class="eyebrow">THE WEDDING OF</p>
+      <h1 id="coverNames">Brian & Nisa</h1>
+      <p id="guestGreeting">Kepada Yth.<br><strong>Tamu Undangan</strong></p>
+      <button id="openInvitation" class="btn">Buka Undangan</button>
+    </div>
+  </div>
+
+  <main id="mainContent" class="hidden">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">THE WEDDING OF</p>
+        <h1 id="heroNames">Brian & Nisa</h1>
+        <p id="heroDate">20 Desember 2026</p>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <p class="eyebrow">ASSALAMUALAIKUM</p>
+      <h2>Dengan penuh kebahagiaan</h2>
+      <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada pernikahan kami.</p>
+      <div class="couple">
+        <div class="person">
+          <div class="portrait" id="groomPhoto"></div>
+          <h3 id="groomName">Brian Aldi, S.M.</h3>
+          <p id="groomParents">Putra dari Bapak ... & Ibu ...</p>
+        </div>
+        <div class="amp">&</div>
+        <div class="person">
+          <div class="portrait" id="bridePhoto"></div>
+          <h3 id="brideName">An Nisa Nur Laila, S.M.</h3>
+          <p id="brideParents">Putri dari Bapak ... & Ibu ...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section event-section">
+      <p class="eyebrow">SAVE THE DATE</p>
+      <h2>Rangkaian Acara</h2>
+      <div class="event-grid">
+        <article class="event-card">
+          <span>AKAD NIKAH</span>
+          <h3 id="akadDate">Minggu, 20 Desember 2026</h3>
+          <p id="akadTime">08.00 WIB</p>
+          <p id="akadPlace">Kediaman Mempelai Wanita</p>
+        </article>
+        <article class="event-card">
+          <span>RESEPSI</span>
+          <h3 id="receptionDate">Minggu, 20 Desember 2026</h3>
+          <p id="receptionTime">11.00 WIB</p>
+          <p id="receptionPlace">Gedung Serbaguna</p>
+        </article>
+      </div>
+      <a id="mapsButton" class="btn outline" href="#" target="_blank" rel="noopener">Buka Google Maps</a>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">COUNTING DOWN TO</p>
+      <h2>Hari Bahagia Kami</h2>
+      <div class="countdown">
+        <div><strong id="days">00</strong><span>Hari</span></div>
+        <div><strong id="hours">00</strong><span>Jam</span></div>
+        <div><strong id="minutes">00</strong><span>Menit</span></div>
+        <div><strong id="seconds">00</strong><span>Detik</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <p class="eyebrow">OUR MOMENTS</p>
+      <h2>Galeri</h2>
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section class="section story">
+      <p class="eyebrow">OUR STORY</p>
+      <h2>Kisah Kami</h2>
+      <div id="storyList"></div>
+    </section>
+
+    <section class="section rsvp">
+      <p class="eyebrow">RSVP</p>
+      <h2>Konfirmasi Kehadiran</h2>
+      <p>Silakan konfirmasi melalui WhatsApp agar kami dapat mempersiapkan acara dengan baik.</p>
+      <a id="rsvpButton" class="btn" href="#" target="_blank" rel="noopener">Konfirmasi via WhatsApp</a>
+    </section>
+
+    <section class="section gift">
+      <p class="eyebrow">WEDDING GIFT</p>
+      <h2>Tanda Kasih</h2>
+      <p>Bagi yang ingin memberikan tanda kasih, dapat melalui rekening berikut.</p>
+      <div id="bankList" class="bank-list"></div>
+    </section>
+
+    <footer>
+      <p>Terima kasih atas doa dan kehadiran Anda.</p>
+      <h2 id="footerNames">Brian & Nisa</h2>
+      <small>Undangan digital • MultiTeknik Digital</small>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
