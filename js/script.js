@@ -4,7 +4,7 @@ let tamu = "Tamu Undangan";
 const $ = (id) => document.getElementById(id);
 
 function getGuestCode() {
-  return new URLSearchParams(window.location.search).get("t") || "";
+  return new URLSearchParams(window.location.search).get("to") || "";
 }
 
 function formatRupiahCopy(text) {
