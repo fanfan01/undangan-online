@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f3ed">
+  <meta name="description" content="Undangan pernikahan digital. Dengan penuh kebahagiaan, kami mengundang Anda.">
+  <title>Undangan Pernikahan | Brian & Nisa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/undangan-online/css/style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen"><span class="loader-mark">B<span>&</span>N</span><p>Menyiapkan undangan...</p></div>
+
+  <section class="opening" id="opening">
+    <div class="opening-image"></div>
+    <div class="opening-shade"></div>
+    <div class="opening-content">
+      <p class="eyebrow">THE WEDDING OF</p>
+      <h1 id="coverNames">Brian <i>&</i> Nisa</h1>
+      <p class="opening-date" id="coverDate">Minggu, 20 Desember 2026</p>
+      <div class="guest-box">
+        <span>Kepada Yth.</span>
+        <strong id="guestName">Tamu Undangan</strong>
+        <small>Dengan segala hormat, kami mengundang Anda.</small>
+      </div>
+      <button class="button button-light" id="openInvitation" type="button"><span>✉</span> Buka Undangan</button>
+      <p class="opening-note">Mohon maaf apabila ada kesalahan penulisan nama dan gelar.</p>
+    </div>
+  </section>
+
+  <main id="mainContent" class="main-content" aria-hidden="true">
+    <nav class="top-nav">
+      <a href="#home" class="nav-brand" id="navNames">B <span>&</span> N</a>
+      <a href="#rsvp" class="nav-rsvp">RSVP <span>↗</span></a>
+    </nav>
+
+    <section class="hero section" id="home">
+      <div class="hero-kicker">A CELEBRATION OF LOVE</div>
+      <p class="script-intro">Together with our families</p>
+      <h2 id="heroNames">Brian <i>&</i> Nisa</h2>
+      <p class="hero-subtitle">Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami.</p>
+      <div class="hero-photo-wrap">
+        <img id="heroPhoto" src="" alt="Foto pasangan" class="hero-photo">
+        <span class="photo-caption" id="heroDate">Minggu, 20 Desember 2026</span>
+      </div>
+      <a href="#couple" class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="quote-section section">
+      <p class="eyebrow">WITH LOVE & GRATITUDE</p>
+      <div class="quote-mark">“</div>
+      <blockquote>Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu merasa tenteram di sampingnya.</blockquote>
+      <p class="quote-source">QS. Ar-Rum: 21</p>
+    </section>
+
+    <section class="couple-section section" id="couple">
+      <div class="section-heading">
+        <p class="eyebrow">THE BRIDE & THE GROOM</p>
+        <h2>Dua hati, satu tujuan.</h2>
+        <p>Dengan penuh rasa syukur, kami memperkenalkan kedua mempelai.</p>
+      </div>
+      <div class="couple-grid">
+        <article class="person-card">
+          <div class="person-photo-frame"><img id="groomPhoto" src="" alt="Mempelai pria"></div>
+          <p class="person-role">THE GROOM</p>
+          <h3 id="groomName">Brian</h3>
+          <p class="person-parents" id="groomParents"></p>
+          <a id="groomSocial" class="social-link" target="_blank" rel="noopener">Instagram ↗</a>
+        </article>
+        <div class="couple-ampersand">&</div>
+        <article class="person-card">
+          <div class="person-photo-frame"><img id="bridePhoto" src="" alt="Mempelai wanita"></div>
+          <p class="person-role">THE BRIDE</p>
+          <h3 id="brideName">Nisa</h3>
+          <p class="person-parents" id="brideParents"></p>
+          <a id="brideSocial" class="social-link" target="_blank" rel="noopener">Instagram ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="event-section section" id="event">
+      <div class="section-heading light-heading">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>Hari bahagia kami</h2>
+        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda berkenan hadir.</p>
+      </div>
+      <div class="countdown" aria-label="Hitung mundur">
+        <div><strong id="days">00</strong><span>HARI</span></div>
+        <div><strong id="hours">00</strong><span>JAM</span></div>
+        <div><strong id="minutes">00</strong><span>MENIT</span></div>
+        <div><strong id="seconds">00</strong><span>DETIK</span></div>
+      </div>
+      <div class="event-grid">
+        <article class="event-card">
+          <span class="event-number">01 / AKAD</span>
+          <h3>Akad Nikah</h3>
+          <p class="event-date" id="akadDate"></p>
+          <p id="akadTime"></p>
+          <p id="akadPlace"></p>
+          <a id="akadMaps" class="text-link" target="_blank" rel="noopener">Lihat Lokasi ↗</a>
+        </article>
+        <article class="event-card">
+          <span class="event-number">02 / RESEPSI</span>
+          <h3>Resepsi</h3>
+          <p class="event-date" id="receptionDate"></p>
+          <p id="receptionTime"></p>
+          <p id="receptionPlace"></p>
+          <a id="receptionMaps" class="text-link" target="_blank" rel="noopener">Lihat Lokasi ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-section section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR JOURNEY</p>
+        <h2>Cerita kami</h2>
+        <p>Setiap pertemuan memiliki cerita, dan ini adalah cerita kami.</p>
+      </div>
+      <div class="story-list" id="storyList"></div>
+    </section>
+
+    <section class="gallery-section section">
+      <div class="section-heading">
+        <p class="eyebrow">OUR MOMENTS</p>
+        <h2>Galeri kenangan</h2>
+        <p>Potongan cerita yang ingin kami kenang selamanya.</p>
+      </div>
+      <div class="gallery-grid" id="gallery"></div>
+    </section>
+
+    <section class="gift-section section">
+      <div class="section-heading">
+        <p class="eyebrow">WEDDING GIFT</p>
+        <h2>Doa dan restu Anda</h2>
+        <p>Doa restu Anda merupakan hadiah terindah bagi kami. Namun, apabila memberi merupakan ungkapan tanda kasih, Anda dapat menggunakan informasi berikut.</p>
+      </div>
+      <div class="bank-grid" id="bankList"></div>
+    </section>
+
+    <section class="rsvp-section section" id="rsvp">
+      <p class="eyebrow">KINDLY RSVP</p>
+      <h2>Kehadiran Anda<br><i>adalah kebahagiaan kami.</i></h2>
+      <p>Mohon konfirmasi kehadiran melalui tombol berikut.</p>
+      <a id="rsvpButton" class="button button-dark" target="_blank" rel="noopener">Konfirmasi via WhatsApp ↗</a>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-monogram" id="footerMonogram">B <span>&</span> N</p>
+      <h2 id="footerNames">Brian & Nisa</h2>
+      <p>Terima kasih atas doa dan kehadiran Anda.</p>
+      <small>Made with love · Wedding Invitation</small>
+    </footer>
+  </main>
+
+  <script src="/undangan-online/js/script.js"></script>
+</body>
+</html>
